@@ -1,5 +1,7 @@
 # main.py
-from src.models import Book, Magazine, Member
+from src.models.book import Book
+from src.models.magazine import Magazine
+from src.models.member import Member
 from src.services.library import Library
 
 def main():
